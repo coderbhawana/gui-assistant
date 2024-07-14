@@ -352,7 +352,7 @@ def main():
             
             
    # Load and set the background image
-    background_image = Image.open("C:\Users\bhawa\OneDrive\Desktop\gui-assistant\wallpaper.jpg")
+    background_image = Image.open("C:\\Users\\bhawa\\OneDrive\\Desktop\\gui-assistant\\wallpaper.jpg")
     background_photo = ImageTk.PhotoImage(background_image)
     background_label = ttk.Label(root, image=background_photo)
     background_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -360,7 +360,7 @@ def main():
     f1 = ttk.Frame(root)
     f1.pack(pady=100)  # Add some padding to the frame to center it vertically
 
-    image2 = Image.open("C:\Users\bhawa\OneDrive\Desktop\gui-assistant\mic.jpg")
+    image2 = Image.open("C:\\Users\\bhawa\\OneDrive\\Desktop\\gui-assistant\\mic.jpg")
     resized_image = image2.resize((120, 120))
     p2 = ImageTk.PhotoImage(resized_image)
     l2 = ttk.Label(f1, image=p2, relief=SUNKEN)
