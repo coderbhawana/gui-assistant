@@ -1,0 +1,15 @@
+ // Libraries that is needed the most 
+ 
+ pyttsx3
+ datetime
+ speech_recognition as sr
+ wikipedia
+ os
+ webbrowser
+ pyjokes
+ pywhatkit as kit
+ time
+ plyer
+ tkinter
+ PIL 
+ threading 
